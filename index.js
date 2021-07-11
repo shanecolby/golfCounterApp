@@ -19,5 +19,13 @@ function save() {
 }
 
 
-console.log(scores)
+function total() {
+  let sum = 0
+  for (let i = 0; i < scores.length; i++) {
+    sum += scores[i]
+
+    scoreEl.textContent = sum
+  }
+  console.log(scores)
+}
 

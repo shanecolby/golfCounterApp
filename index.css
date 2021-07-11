@@ -35,3 +35,7 @@ button {
 #save-btn {
   background: darkgreen;
 }
+
+#total-btn {
+  background: rgb(99, 97, 97);
+}
