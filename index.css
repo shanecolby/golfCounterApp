@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-size: 50px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
   color: white;
 }
 
@@ -33,15 +33,17 @@ button {
 
 #increment-btn {
   background: darkred;
+  border-radius: 50px;
 }
 
 #save-btn {
   background: rgb(102, 96, 192);
+  border-radius: 50px;
   
 }
 
 #total-btn {
-  background: rgb(97, 93, 93);
+  background: rgba(26, 24, 25, 0.719);
   border-radius: 50px;
 
 }
