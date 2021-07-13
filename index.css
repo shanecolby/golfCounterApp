@@ -16,7 +16,7 @@ h2 {
   font-size: 65px;
   margin-top: 0;
   margin-bottom: 20px;  
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 button {
@@ -116,10 +116,9 @@ button {
 
 
 #save-el {
-  color: white;
- 
+  color: rgb(255, 255, 255);
 }
 
 #score-el {
-  color: yellow
+  color: yellow;
 }
