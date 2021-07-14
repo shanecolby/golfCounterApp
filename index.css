@@ -90,6 +90,21 @@ button {
 
 
 
+#removeStroke-btn {
+  width: 200px;
+  background: rgba(28, 117, 43, 0.986);
+  border-radius: 50px;
+
+  transition-duration: 0.5s;
+
+  
+}
+#removeStroke-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.54), 0 17px 50px 0 rgba(0,0,0,0.59);
+}
+
+
+
 #save-btn {
   background: rgb(102, 96, 192);
   border-radius: 50px;
@@ -118,11 +133,16 @@ button {
 
 
 #save-el {
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 0px 0px 17px #000000;
 }
 
 #score-el {
   color: yellow;
   font-size: 40px;
+}
+
+#greeting-id {
+  color: yellow;
+  font-size: 30px;
 }

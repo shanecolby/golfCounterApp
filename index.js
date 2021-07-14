@@ -2,6 +2,7 @@ let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let scoreEl = document.getElementById("score-el")
 let greetingID = document.getElementById("greeting-id")
+let removeStrokeBTN = document.getElementById("removeStroke-btn")
 let count = 0
 let scores = []
 
@@ -27,6 +28,8 @@ function incrementPlusFive() {
   countEl.textContent = count
 }
 
+
+
 function save() {
   scores.push(count)
   let countString = count + " - "
@@ -51,3 +54,8 @@ function total() {
   }
 }
 
+function removeStroke() {
+  count -= 1
+  countEl.textContent = count
+
+}
