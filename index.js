@@ -39,11 +39,12 @@ function save() {
     console.log("Halfway! Time to tally up that score.")
   } else if (scores.length === 18) {
     greetingID.textContent = "Great Round, lets tally it up!"
-  } else if (scores.length > 18)
+  } else if (scores.length > 18) {
     saveEl.textContent = "Round Complete"
-}
-countEl.textContent = 0
-count = 0
+
+  }
+  countEl.textContent = 0
+  count = 0
 }
 
 
