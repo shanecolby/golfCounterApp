@@ -1,6 +1,7 @@
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let scoreEl = document.getElementById("score-el")
+let greetingID = document.getElementById("greeting-id")
 let count = 0
 let scores = []
 
@@ -30,6 +31,12 @@ function save() {
   scores.push(count)
   let countString = count + " - "
   saveEl.textContent += countString
+  if (scores.length === 9) {
+    greetingID.textContent = "Halfway! Time to tally up that score."
+    console.log("Halfway! Time to tally up that score.")
+  } else {
+    greetingID.textContent = ""
+  }
   countEl.textContent = 0
   count = 0
 }
