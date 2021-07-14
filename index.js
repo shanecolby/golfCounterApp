@@ -40,8 +40,10 @@ function save() {
   } else if (scores.length === 18) {
     greetingID.textContent = "Great Round, lets tally it up!"
   } else if (scores.length > 18) {
+    greetingID.textContent = ""
     saveEl.textContent = "Round Complete"
-
+  } else {
+    greetingID.textContent = ""
   }
   countEl.textContent = 0
   count = 0
