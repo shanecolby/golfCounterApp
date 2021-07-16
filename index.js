@@ -3,8 +3,10 @@ let saveEl = document.getElementById("save-el")
 let scoreEl = document.getElementById("score-el")
 let greetingID = document.getElementById("greeting-id")
 let removeStrokeBTN = document.getElementById("removeStroke-btn")
+let saveScoreEl = document.getElementById("saveScore-el")
 let count = 0
 let scores = []
+
 
 
 
@@ -61,5 +63,8 @@ function total() {
 function removeStroke() {
   count -= 1
   countEl.textContent = count
+
+}
+function saveScore() {
 
 }
