@@ -1,3 +1,4 @@
+let Player1 = document.getElementById("player1-el")
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let scoreEl = document.getElementById("score-el")
@@ -57,14 +58,13 @@ function total() {
   for (let i = 0; i < scores.length; i++) {
     sum += scores[i]
     scoreEl.textContent = sum
+
   }
+
 }
 
 function removeStroke() {
   count -= 1
   countEl.textContent = count
-
-}
-function saveScore() {
 
 }
