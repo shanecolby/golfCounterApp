@@ -2,7 +2,7 @@
   "name": "golfcounterjs.app",
   "version": "1.0.0",
   "description": "Golf Stroke Counter",
-  "main": "index.html",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1"
   },
